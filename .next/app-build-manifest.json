@@ -1,21 +1,36 @@
 {
   "pages": {
     "/api/audio/route": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
       "static/chunks/app/api/audio/route-5594a61feef75ce7.js"
     ],
     "/manifest.webmanifest/route": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
       "static/chunks/app/manifest.webmanifest/route-e1cda3cd52e141a6.js"
     ],
+    "/not-found": [
+      "static/chunks/webpack-b9698ac37f901df8.js",
+      "static/chunks/4bd1b696-3ede380ea35ad313.js",
+      "static/chunks/1684-789502746420369a.js",
+      "static/chunks/main-app-cf396518b65a4b8f.js",
+      "static/chunks/6874-ea635a9f681a72ac.js",
+      "static/chunks/app/not-found-d4d466e5400b6236.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack-b9698ac37f901df8.js",
+      "static/chunks/4bd1b696-3ede380ea35ad313.js",
+      "static/chunks/1684-789502746420369a.js",
+      "static/chunks/main-app-cf396518b65a4b8f.js",
+      "static/chunks/app/_not-found/page-858c9c195d4feb47.js"
+    ],
     "/layout": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -27,16 +42,22 @@
       "static/chunks/8885-05179c7798ec5b18.js",
       "static/chunks/app/layout-d2345d40b2e93900.js"
     ],
-    "/not-found": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+    "/exercises/listening/loading": [
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
-      "static/chunks/6874-ea635a9f681a72ac.js",
-      "static/chunks/app/not-found-d4d466e5400b6236.js"
+      "static/chunks/app/exercises/listening/loading-9531f140ad8cdce6.js"
+    ],
+    "/exercises/listening/page": [
+      "static/chunks/webpack-b9698ac37f901df8.js",
+      "static/chunks/4bd1b696-3ede380ea35ad313.js",
+      "static/chunks/1684-789502746420369a.js",
+      "static/chunks/main-app-cf396518b65a4b8f.js",
+      "static/chunks/app/exercises/listening/page-080a5c4630846124.js"
     ],
     "/challenges/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -46,29 +67,15 @@
       "static/chunks/app/challenges/page-fc64c9311149448f.js"
     ],
     "/exercises/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
       "static/chunks/6874-ea635a9f681a72ac.js",
       "static/chunks/app/exercises/page-071b72ca4ce62d3d.js"
     ],
-    "/exercises/reading/loading": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
-      "static/chunks/4bd1b696-3ede380ea35ad313.js",
-      "static/chunks/1684-789502746420369a.js",
-      "static/chunks/main-app-cf396518b65a4b8f.js",
-      "static/chunks/app/exercises/reading/loading-9c87a6ed69a1450c.js"
-    ],
-    "/exercises/reading/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
-      "static/chunks/4bd1b696-3ede380ea35ad313.js",
-      "static/chunks/1684-789502746420369a.js",
-      "static/chunks/main-app-cf396518b65a4b8f.js",
-      "static/chunks/app/exercises/reading/page-061c356b345792af.js"
-    ],
     "/exercises/pronunciation/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -78,22 +85,36 @@
       "static/chunks/5328-8b4de822ee4e0a41.js",
       "static/chunks/app/exercises/pronunciation/page-d364f35f32a8a40b.js"
     ],
+    "/exercises/reading/loading": [
+      "static/chunks/webpack-b9698ac37f901df8.js",
+      "static/chunks/4bd1b696-3ede380ea35ad313.js",
+      "static/chunks/1684-789502746420369a.js",
+      "static/chunks/main-app-cf396518b65a4b8f.js",
+      "static/chunks/app/exercises/reading/loading-9c87a6ed69a1450c.js"
+    ],
+    "/exercises/reading/page": [
+      "static/chunks/webpack-b9698ac37f901df8.js",
+      "static/chunks/4bd1b696-3ede380ea35ad313.js",
+      "static/chunks/1684-789502746420369a.js",
+      "static/chunks/main-app-cf396518b65a4b8f.js",
+      "static/chunks/app/exercises/reading/page-061c356b345792af.js"
+    ],
     "/exercises/writing/loading": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
       "static/chunks/app/exercises/writing/loading-9fd65c514036afc6.js"
     ],
     "/exercises/writing/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
       "static/chunks/app/exercises/writing/page-a24dfe64bb288ef3.js"
     ],
     "/forgot-password/loading": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -101,7 +122,7 @@
       "static/chunks/app/forgot-password/loading-255c39cee7c63448.js"
     ],
     "/forgot-password/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -109,18 +130,8 @@
       "static/chunks/6874-ea635a9f681a72ac.js",
       "static/chunks/app/forgot-password/page-9d66f9239668a277.js"
     ],
-    "/games/achievements/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
-      "static/chunks/4bd1b696-3ede380ea35ad313.js",
-      "static/chunks/1684-789502746420369a.js",
-      "static/chunks/main-app-cf396518b65a4b8f.js",
-      "static/chunks/2848-1860bfcd64b9440b.js",
-      "static/chunks/6874-ea635a9f681a72ac.js",
-      "static/chunks/704-8871f99e8e00a465.js",
-      "static/chunks/app/games/achievements/page-e5a35b53a0ae32d7.js"
-    ],
     "/games/memory-match/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -129,7 +140,7 @@
       "static/chunks/app/games/memory-match/page-8f96005dbea87705.js"
     ],
     "/games/hangman/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -138,8 +149,18 @@
       "static/chunks/2626-081b53af2ffb949b.js",
       "static/chunks/app/games/hangman/page-bf4b0fd661804e25.js"
     ],
+    "/games/achievements/page": [
+      "static/chunks/webpack-b9698ac37f901df8.js",
+      "static/chunks/4bd1b696-3ede380ea35ad313.js",
+      "static/chunks/1684-789502746420369a.js",
+      "static/chunks/main-app-cf396518b65a4b8f.js",
+      "static/chunks/2848-1860bfcd64b9440b.js",
+      "static/chunks/6874-ea635a9f681a72ac.js",
+      "static/chunks/704-8871f99e8e00a465.js",
+      "static/chunks/app/games/achievements/page-e5a35b53a0ae32d7.js"
+    ],
     "/games/memory/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -150,7 +171,7 @@
       "static/chunks/app/games/memory/page-b501b83e1a557569.js"
     ],
     "/games/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -158,7 +179,7 @@
       "static/chunks/app/games/page-7c25750b3bc29bff.js"
     ],
     "/games/quiz/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -167,29 +188,17 @@
       "static/chunks/2626-081b53af2ffb949b.js",
       "static/chunks/app/games/quiz/page-3c9e5df97632b28f.js"
     ],
-    "/_not-found/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+    "/games/time-challenge/page": [
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
-      "static/chunks/app/_not-found/page-858c9c195d4feb47.js"
-    ],
-    "/exercises/listening/loading": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
-      "static/chunks/4bd1b696-3ede380ea35ad313.js",
-      "static/chunks/1684-789502746420369a.js",
-      "static/chunks/main-app-cf396518b65a4b8f.js",
-      "static/chunks/app/exercises/listening/loading-9531f140ad8cdce6.js"
-    ],
-    "/exercises/listening/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
-      "static/chunks/4bd1b696-3ede380ea35ad313.js",
-      "static/chunks/1684-789502746420369a.js",
-      "static/chunks/main-app-cf396518b65a4b8f.js",
-      "static/chunks/app/exercises/listening/page-080a5c4630846124.js"
+      "static/chunks/2848-1860bfcd64b9440b.js",
+      "static/chunks/6874-ea635a9f681a72ac.js",
+      "static/chunks/app/games/time-challenge/page-cee2d5c99faf19ee.js"
     ],
     "/help/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -198,7 +207,7 @@
       "static/chunks/app/help/page-049796986e0b3f34.js"
     ],
     "/lessons/1/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -209,7 +218,7 @@
       "static/chunks/app/lessons/1/page-0e4f39882af08c67.js"
     ],
     "/lessons/2/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -219,41 +228,8 @@
       "static/chunks/6545-3c3cc49ef06091de.js",
       "static/chunks/app/lessons/2/page-1458d1c95590cb0d.js"
     ],
-    "/lessons/6/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
-      "static/chunks/4bd1b696-3ede380ea35ad313.js",
-      "static/chunks/1684-789502746420369a.js",
-      "static/chunks/main-app-cf396518b65a4b8f.js",
-      "static/chunks/2848-1860bfcd64b9440b.js",
-      "static/chunks/6874-ea635a9f681a72ac.js",
-      "static/chunks/704-8871f99e8e00a465.js",
-      "static/chunks/6545-3c3cc49ef06091de.js",
-      "static/chunks/app/lessons/6/page-84fe8bf9061478c6.js"
-    ],
-    "/lessons/5/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
-      "static/chunks/4bd1b696-3ede380ea35ad313.js",
-      "static/chunks/1684-789502746420369a.js",
-      "static/chunks/main-app-cf396518b65a4b8f.js",
-      "static/chunks/2848-1860bfcd64b9440b.js",
-      "static/chunks/6874-ea635a9f681a72ac.js",
-      "static/chunks/704-8871f99e8e00a465.js",
-      "static/chunks/6545-3c3cc49ef06091de.js",
-      "static/chunks/app/lessons/5/page-e96b1e1e316afb75.js"
-    ],
-    "/lessons/3/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
-      "static/chunks/4bd1b696-3ede380ea35ad313.js",
-      "static/chunks/1684-789502746420369a.js",
-      "static/chunks/main-app-cf396518b65a4b8f.js",
-      "static/chunks/2848-1860bfcd64b9440b.js",
-      "static/chunks/6874-ea635a9f681a72ac.js",
-      "static/chunks/704-8871f99e8e00a465.js",
-      "static/chunks/6545-3c3cc49ef06091de.js",
-      "static/chunks/app/lessons/3/page-cf7c73d35ed71161.js"
-    ],
     "/lessons/4/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -263,16 +239,53 @@
       "static/chunks/6545-3c3cc49ef06091de.js",
       "static/chunks/app/lessons/4/page-de73930790c8c539.js"
     ],
-    "/lessons/syllables/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+    "/lessons/3/page": [
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
+      "static/chunks/2848-1860bfcd64b9440b.js",
       "static/chunks/6874-ea635a9f681a72ac.js",
-      "static/chunks/app/lessons/syllables/page-a3d699fda1c8f50c.js"
+      "static/chunks/704-8871f99e8e00a465.js",
+      "static/chunks/6545-3c3cc49ef06091de.js",
+      "static/chunks/app/lessons/3/page-cf7c73d35ed71161.js"
+    ],
+    "/lessons/5/page": [
+      "static/chunks/webpack-b9698ac37f901df8.js",
+      "static/chunks/4bd1b696-3ede380ea35ad313.js",
+      "static/chunks/1684-789502746420369a.js",
+      "static/chunks/main-app-cf396518b65a4b8f.js",
+      "static/chunks/2848-1860bfcd64b9440b.js",
+      "static/chunks/6874-ea635a9f681a72ac.js",
+      "static/chunks/704-8871f99e8e00a465.js",
+      "static/chunks/6545-3c3cc49ef06091de.js",
+      "static/chunks/app/lessons/5/page-e96b1e1e316afb75.js"
+    ],
+    "/lessons/grammar/[id]/page": [
+      "static/chunks/webpack-b9698ac37f901df8.js",
+      "static/chunks/4bd1b696-3ede380ea35ad313.js",
+      "static/chunks/1684-789502746420369a.js",
+      "static/chunks/main-app-cf396518b65a4b8f.js",
+      "static/chunks/2848-1860bfcd64b9440b.js",
+      "static/chunks/6874-ea635a9f681a72ac.js",
+      "static/chunks/704-8871f99e8e00a465.js",
+      "static/chunks/2626-081b53af2ffb949b.js",
+      "static/chunks/6394-7c597c0fcc20b447.js",
+      "static/chunks/7038-84168b39cc23dcd2.js",
+      "static/chunks/app/lessons/grammar/[id]/page-a6e946ef99423643.js"
+    ],
+    "/games/word-match/page": [
+      "static/chunks/webpack-b9698ac37f901df8.js",
+      "static/chunks/4bd1b696-3ede380ea35ad313.js",
+      "static/chunks/1684-789502746420369a.js",
+      "static/chunks/main-app-cf396518b65a4b8f.js",
+      "static/chunks/2848-1860bfcd64b9440b.js",
+      "static/chunks/6874-ea635a9f681a72ac.js",
+      "static/chunks/2626-081b53af2ffb949b.js",
+      "static/chunks/app/games/word-match/page-17537a02e10dc2a4.js"
     ],
     "/lessons/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -280,7 +293,7 @@
       "static/chunks/app/lessons/page-4afc36ab7d345ed0.js"
     ],
     "/lessons/syllables/[id]/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -291,27 +304,19 @@
       "static/chunks/5328-8b4de822ee4e0a41.js",
       "static/chunks/app/lessons/syllables/[id]/page-5e7e3a25d960d748.js"
     ],
-    "/games/time-challenge/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+    "/lessons/6/page": [
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
       "static/chunks/2848-1860bfcd64b9440b.js",
       "static/chunks/6874-ea635a9f681a72ac.js",
-      "static/chunks/app/games/time-challenge/page-cee2d5c99faf19ee.js"
-    ],
-    "/games/word-match/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
-      "static/chunks/4bd1b696-3ede380ea35ad313.js",
-      "static/chunks/1684-789502746420369a.js",
-      "static/chunks/main-app-cf396518b65a4b8f.js",
-      "static/chunks/2848-1860bfcd64b9440b.js",
-      "static/chunks/6874-ea635a9f681a72ac.js",
-      "static/chunks/2626-081b53af2ffb949b.js",
-      "static/chunks/app/games/word-match/page-17537a02e10dc2a4.js"
+      "static/chunks/704-8871f99e8e00a465.js",
+      "static/chunks/6545-3c3cc49ef06091de.js",
+      "static/chunks/app/lessons/6/page-84fe8bf9061478c6.js"
     ],
     "/login/loading": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -319,27 +324,17 @@
       "static/chunks/app/login/loading-6a66e82db4b81a6e.js"
     ],
     "/login/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
       "static/chunks/2848-1860bfcd64b9440b.js",
       "static/chunks/6874-ea635a9f681a72ac.js",
-      "static/chunks/6147-f433a43344714960.js",
-      "static/chunks/app/login/page-82ae36ef60597e98.js"
-    ],
-    "/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
-      "static/chunks/4bd1b696-3ede380ea35ad313.js",
-      "static/chunks/1684-789502746420369a.js",
-      "static/chunks/main-app-cf396518b65a4b8f.js",
-      "static/chunks/2848-1860bfcd64b9440b.js",
-      "static/chunks/6874-ea635a9f681a72ac.js",
-      "static/chunks/6394-7c597c0fcc20b447.js",
-      "static/chunks/app/page-6d084829a2773a53.js"
+      "static/chunks/6147-0b2d598d83e50369.js",
+      "static/chunks/app/login/page-df2d755abfbc46aa.js"
     ],
     "/lessons/texts/[id]/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -349,11 +344,29 @@
       "static/chunks/2626-081b53af2ffb949b.js",
       "static/chunks/4073-e737ac829eee6c8b.js",
       "static/chunks/6394-7c597c0fcc20b447.js",
-      "static/chunks/7038-0955110dad17ad28.js",
-      "static/chunks/app/lessons/texts/[id]/page-1a210ecbe85111b5.js"
+      "static/chunks/7038-84168b39cc23dcd2.js",
+      "static/chunks/app/lessons/texts/[id]/page-121412ac50af1bc5.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-b9698ac37f901df8.js",
+      "static/chunks/4bd1b696-3ede380ea35ad313.js",
+      "static/chunks/1684-789502746420369a.js",
+      "static/chunks/main-app-cf396518b65a4b8f.js",
+      "static/chunks/2848-1860bfcd64b9440b.js",
+      "static/chunks/6874-ea635a9f681a72ac.js",
+      "static/chunks/6394-7c597c0fcc20b447.js",
+      "static/chunks/app/page-6d084829a2773a53.js"
+    ],
+    "/lessons/syllables/page": [
+      "static/chunks/webpack-b9698ac37f901df8.js",
+      "static/chunks/4bd1b696-3ede380ea35ad313.js",
+      "static/chunks/1684-789502746420369a.js",
+      "static/chunks/main-app-cf396518b65a4b8f.js",
+      "static/chunks/6874-ea635a9f681a72ac.js",
+      "static/chunks/app/lessons/syllables/page-a3d699fda1c8f50c.js"
     ],
     "/phrases/greetings/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -362,15 +375,33 @@
       "static/chunks/704-8871f99e8e00a465.js",
       "static/chunks/app/phrases/greetings/page-b72e3faa8aa2386d.js"
     ],
+    "/reset-password/loading": [
+      "static/chunks/webpack-b9698ac37f901df8.js",
+      "static/chunks/4bd1b696-3ede380ea35ad313.js",
+      "static/chunks/1684-789502746420369a.js",
+      "static/chunks/main-app-cf396518b65a4b8f.js",
+      "static/chunks/6874-ea635a9f681a72ac.js",
+      "static/chunks/app/reset-password/loading-5487e8290bed496c.js"
+    ],
+    "/reset-password/page": [
+      "static/chunks/webpack-b9698ac37f901df8.js",
+      "static/chunks/4bd1b696-3ede380ea35ad313.js",
+      "static/chunks/1684-789502746420369a.js",
+      "static/chunks/main-app-cf396518b65a4b8f.js",
+      "static/chunks/2848-1860bfcd64b9440b.js",
+      "static/chunks/6874-ea635a9f681a72ac.js",
+      "static/chunks/6147-0b2d598d83e50369.js",
+      "static/chunks/app/reset-password/page-f29d50d61cb60e92.js"
+    ],
     "/profile/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
       "static/chunks/app/profile/page-91e6a91ff1ff8cdc.js"
     ],
     "/settings/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -381,26 +412,8 @@
       "static/chunks/1158-8ead9ba19ed3b5bb.js",
       "static/chunks/app/settings/page-e8d0af51f39fd263.js"
     ],
-    "/reset-password/loading": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
-      "static/chunks/4bd1b696-3ede380ea35ad313.js",
-      "static/chunks/1684-789502746420369a.js",
-      "static/chunks/main-app-cf396518b65a4b8f.js",
-      "static/chunks/6874-ea635a9f681a72ac.js",
-      "static/chunks/app/reset-password/loading-5487e8290bed496c.js"
-    ],
-    "/reset-password/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
-      "static/chunks/4bd1b696-3ede380ea35ad313.js",
-      "static/chunks/1684-789502746420369a.js",
-      "static/chunks/main-app-cf396518b65a4b8f.js",
-      "static/chunks/2848-1860bfcd64b9440b.js",
-      "static/chunks/6874-ea635a9f681a72ac.js",
-      "static/chunks/6147-f433a43344714960.js",
-      "static/chunks/app/reset-password/page-f70211916830c91f.js"
-    ],
     "/signup/loading": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -408,22 +421,22 @@
       "static/chunks/app/signup/loading-4de2fffd32e605e3.js"
     ],
     "/signup/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
       "static/chunks/2848-1860bfcd64b9440b.js",
-      "static/chunks/app/signup/page-af673643293ac803.js"
+      "static/chunks/app/signup/page-84194fe93b4072b8.js"
     ],
     "/vocabulary/loading": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
       "static/chunks/app/vocabulary/loading-0ccc58ea767e2047.js"
     ],
     "/vocabulary/colors/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -433,14 +446,14 @@
       "static/chunks/app/vocabulary/colors/page-2d06881e23eb6b9a.js"
     ],
     "/alphabet/loading": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
       "static/chunks/app/alphabet/loading-a8aa9368cf72af75.js"
     ],
     "/alphabet/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -448,8 +461,32 @@
       "static/chunks/704-8871f99e8e00a465.js",
       "static/chunks/app/alphabet/page-649148b1677b0fb5.js"
     ],
+    "/vocabulary/page": [
+      "static/chunks/webpack-b9698ac37f901df8.js",
+      "static/chunks/4bd1b696-3ede380ea35ad313.js",
+      "static/chunks/1684-789502746420369a.js",
+      "static/chunks/main-app-cf396518b65a4b8f.js",
+      "static/chunks/2848-1860bfcd64b9440b.js",
+      "static/chunks/704-8871f99e8e00a465.js",
+      "static/chunks/app/vocabulary/page-afdd5c3c6ba78f17.js"
+    ],
+    "/exercises/speaking/loading": [
+      "static/chunks/webpack-b9698ac37f901df8.js",
+      "static/chunks/4bd1b696-3ede380ea35ad313.js",
+      "static/chunks/1684-789502746420369a.js",
+      "static/chunks/main-app-cf396518b65a4b8f.js",
+      "static/chunks/app/exercises/speaking/loading-59e384ec830feeba.js"
+    ],
+    "/exercises/speaking/page": [
+      "static/chunks/webpack-b9698ac37f901df8.js",
+      "static/chunks/4bd1b696-3ede380ea35ad313.js",
+      "static/chunks/1684-789502746420369a.js",
+      "static/chunks/main-app-cf396518b65a4b8f.js",
+      "static/chunks/2848-1860bfcd64b9440b.js",
+      "static/chunks/app/exercises/speaking/page-c1487c7855be8266.js"
+    ],
     "/dashboard/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -458,55 +495,8 @@
       "static/chunks/9687-cb9ed76390bc66a8.js",
       "static/chunks/app/dashboard/page-e7e34177319dd896.js"
     ],
-    "/exercises/speaking/loading": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
-      "static/chunks/4bd1b696-3ede380ea35ad313.js",
-      "static/chunks/1684-789502746420369a.js",
-      "static/chunks/main-app-cf396518b65a4b8f.js",
-      "static/chunks/app/exercises/speaking/loading-59e384ec830feeba.js"
-    ],
-    "/exercises/speaking/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
-      "static/chunks/4bd1b696-3ede380ea35ad313.js",
-      "static/chunks/1684-789502746420369a.js",
-      "static/chunks/main-app-cf396518b65a4b8f.js",
-      "static/chunks/2848-1860bfcd64b9440b.js",
-      "static/chunks/app/exercises/speaking/page-c1487c7855be8266.js"
-    ],
-    "/lessons/grammar/[id]/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
-      "static/chunks/4bd1b696-3ede380ea35ad313.js",
-      "static/chunks/1684-789502746420369a.js",
-      "static/chunks/main-app-cf396518b65a4b8f.js",
-      "static/chunks/2848-1860bfcd64b9440b.js",
-      "static/chunks/6874-ea635a9f681a72ac.js",
-      "static/chunks/704-8871f99e8e00a465.js",
-      "static/chunks/2626-081b53af2ffb949b.js",
-      "static/chunks/6394-7c597c0fcc20b447.js",
-      "static/chunks/7038-0955110dad17ad28.js",
-      "static/chunks/app/lessons/grammar/[id]/page-dddbd6dc076a9d12.js"
-    ],
-    "/syllables/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
-      "static/chunks/4bd1b696-3ede380ea35ad313.js",
-      "static/chunks/1684-789502746420369a.js",
-      "static/chunks/main-app-cf396518b65a4b8f.js",
-      "static/chunks/2848-1860bfcd64b9440b.js",
-      "static/chunks/704-8871f99e8e00a465.js",
-      "static/chunks/4073-e737ac829eee6c8b.js",
-      "static/chunks/app/syllables/page-3a61dae1d1f40bf4.js"
-    ],
-    "/vocabulary/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
-      "static/chunks/4bd1b696-3ede380ea35ad313.js",
-      "static/chunks/1684-789502746420369a.js",
-      "static/chunks/main-app-cf396518b65a4b8f.js",
-      "static/chunks/2848-1860bfcd64b9440b.js",
-      "static/chunks/704-8871f99e8e00a465.js",
-      "static/chunks/app/vocabulary/page-afdd5c3c6ba78f17.js"
-    ],
     "/phrases/page": [
-      "static/chunks/webpack-872b2ce457f5d58f.js",
+      "static/chunks/webpack-b9698ac37f901df8.js",
       "static/chunks/4bd1b696-3ede380ea35ad313.js",
       "static/chunks/1684-789502746420369a.js",
       "static/chunks/main-app-cf396518b65a4b8f.js",
@@ -516,6 +506,16 @@
       "static/chunks/1158-8ead9ba19ed3b5bb.js",
       "static/chunks/6003-f93ee5636d823ec9.js",
       "static/chunks/app/phrases/page-d3e85c2abf7db264.js"
+    ],
+    "/syllables/page": [
+      "static/chunks/webpack-b9698ac37f901df8.js",
+      "static/chunks/4bd1b696-3ede380ea35ad313.js",
+      "static/chunks/1684-789502746420369a.js",
+      "static/chunks/main-app-cf396518b65a4b8f.js",
+      "static/chunks/2848-1860bfcd64b9440b.js",
+      "static/chunks/704-8871f99e8e00a465.js",
+      "static/chunks/4073-e737ac829eee6c8b.js",
+      "static/chunks/app/syllables/page-3a61dae1d1f40bf4.js"
     ]
   }
 }
