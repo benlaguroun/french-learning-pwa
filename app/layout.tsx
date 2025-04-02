@@ -1,22 +1,23 @@
-import type React from "react"
-import "./styles.css"
-import { Inter } from "next/font/google"
-import { ThemeProvider } from "@/components/theme-provider"
-import { Navigation } from "@/components/navigation/main-nav"
-import { Footer } from "@/components/footer"
+import type React from "react";
+import "./styles.css";
+import { Inter } from "next/font/google";
+import { ThemeProvider } from "@/components/theme-provider";
+import { Navigation } from "@/components/navigation/main-nav";
+import { Footer } from "@/components/footer";
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "تعلم الفرنسية - منصة تفاعلية لتعلم اللغة الفرنسية",
-  description: "منصة تفاعلية لتعلم اللغة الفرنسية بطريقة سهلة وممتعة مع تمارين وألعاب وتحديات",
-    generator: 'v0.dev'
-}
+  description:
+    "منصة تفاعلية لتعلم اللغة الفرنسية بطريقة سهلة وممتعة مع تمارين وألعاب وتحديات",
+  generator: "v0.dev",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="ar" dir="rtl" suppressHydrationWarning>
@@ -30,9 +31,7 @@ export default function RootLayout({
         </ThemeProvider>
       </body>
     </html>
-  )
+  );
 }
 
-
-
-import './globals.css'
+import "./globals.css";
