@@ -1,10 +1,16 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Button } from "@/components/ui/button"
-import { Play, Info, Volume2 } from "lucide-react"
+import { useState } from "react";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Button } from "@/components/ui/button";
+import { Play, Info, Volume2 } from "lucide-react";
 
 // French alphabet data with pronunciation, examples, and notes
 const alphabetData = [
@@ -216,7 +222,7 @@ const alphabetData = [
     notes: "Similar to 'z' in 'zebra'",
     audio: "/audio/z.mp3",
   },
-]
+];
 
 // Special characters in French
 const specialCharacters = [
@@ -340,18 +346,20 @@ const specialCharacters = [
     notes: "Rare, mostly in Latin-derived words",
     audio: "/audio/ae-ligature.mp3",
   },
-]
+];
 
 // Function to play audio (mock implementation)
 const playAudio = (audioPath: string) => {
-  console.log(`Playing audio: ${audioPath}`)
+  console.log(`Playing audio: ${audioPath}`);
   // In a real implementation, you would use the Audio API
   // const audio = new Audio(audioPath);
   // audio.play();
-}
+};
 
 export function AlphabetDisplay() {
-  const [selectedLetter, setSelectedLetter] = useState<(typeof alphabetData)[0] | null>(null)
+  const [selectedLetter, setSelectedLetter] = useState<
+    (typeof alphabetData)[0] | null
+  >(null);
 
   return (
     <div className="container mx-auto py-6">
@@ -371,14 +379,16 @@ export function AlphabetDisplay() {
               >
                 <CardContent className="p-4 flex flex-col items-center justify-center text-center">
                   <div className="text-4xl font-bold mb-2">{letter.letter}</div>
-                  <div className="text-sm text-muted-foreground">{letter.name}</div>
+                  <div className="text-sm text-muted-foreground">
+                    {letter.name}
+                  </div>
                   <Button
                     variant="ghost"
                     size="icon"
                     className="mt-2"
                     onClick={(e) => {
-                      e.stopPropagation()
-                      playAudio(letter.audio)
+                      e.stopPropagation();
+                      playAudio(letter.audio);
                     }}
                   >
                     <Volume2 className="h-4 w-4" />
@@ -399,14 +409,16 @@ export function AlphabetDisplay() {
               >
                 <CardContent className="p-4 flex flex-col items-center justify-center text-center">
                   <div className="text-4xl font-bold mb-2">{letter.letter}</div>
-                  <div className="text-sm text-muted-foreground">{letter.name}</div>
+                  <div className="text-sm text-muted-foreground">
+                    {letter.name}
+                  </div>
                   <Button
                     variant="ghost"
                     size="icon"
                     className="mt-2"
                     onClick={(e) => {
-                      e.stopPropagation()
-                      playAudio(letter.audio)
+                      e.stopPropagation();
+                      playAudio(letter.audio);
                     }}
                   >
                     <Volume2 className="h-4 w-4" />
@@ -424,11 +436,19 @@ export function AlphabetDisplay() {
             <div className="flex items-center justify-between">
               <CardTitle className="text-3xl flex items-center gap-2">
                 {selectedLetter.letter}
-                <Button variant="ghost" size="icon" onClick={() => playAudio(selectedLetter.audio)}>
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  onClick={() => playAudio(selectedLetter.audio)}
+                >
                   <Volume2 className="h-5 w-5" />
                 </Button>
               </CardTitle>
-              <Button variant="outline" size="sm" onClick={() => setSelectedLetter(null)}>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => setSelectedLetter(null)}
+              >
                 Close
               </Button>
             </div>
@@ -443,7 +463,9 @@ export function AlphabetDisplay() {
                   <Info className="h-4 w-4" />
                   Pronunciation Note
                 </h3>
-                <p className="text-muted-foreground mt-1">{selectedLetter.notes}</p>
+                <p className="text-muted-foreground mt-1">
+                  {selectedLetter.notes}
+                </p>
               </div>
 
               <div>
@@ -453,13 +475,18 @@ export function AlphabetDisplay() {
                 </h3>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 mt-2">
                   {selectedLetter.examples.map((example, index) => (
-                    <div key={index} className="flex items-center justify-between p-2 bg-muted rounded-md">
+                    <div
+                      key={index}
+                      className="flex items-center justify-between p-2 bg-muted rounded-md"
+                    >
                       <span>{example}</span>
                       <Button
                         variant="ghost"
                         size="icon"
                         className="h-8 w-8"
-                        onClick={() => playAudio(`/audio/examples/${example}.mp3`)}
+                        onClick={() =>
+                          playAudio(`/audio/examples/${example}.mp3`)
+                        }
                       >
                         <Volume2 className="h-4 w-4" />
                       </Button>
@@ -489,7 +516,9 @@ export function AlphabetDisplay() {
       )}
 
       <div className="mt-8 bg-muted p-6 rounded-lg">
-        <h2 className="text-xl font-bold mb-4">Tips for Learning the French Alphabet</h2>
+        <h2 className="text-xl font-bold mb-4">
+          Tips for Learning the French Alphabet
+        </h2>
         <ul className="space-y-2">
           <li className="flex items-start gap-2">
             <span className="text-primary font-bold">•</span>
@@ -497,7 +526,9 @@ export function AlphabetDisplay() {
           </li>
           <li className="flex items-start gap-2">
             <span className="text-primary font-bold">•</span>
-            <span>Focus on sounds that don't exist in English (like 'r' and 'u')</span>
+            <span>
+              Focus on sounds that don't exist in English (like 'r' and 'u')
+            </span>
           </li>
           <li className="flex items-start gap-2">
             <span className="text-primary font-bold">•</span>
@@ -505,15 +536,18 @@ export function AlphabetDisplay() {
           </li>
           <li className="flex items-start gap-2">
             <span className="text-primary font-bold">•</span>
-            <span>Pay attention to accent marks as they change pronunciation</span>
+            <span>
+              Pay attention to accent marks as they change pronunciation
+            </span>
           </li>
           <li className="flex items-start gap-2">
             <span className="text-primary font-bold">•</span>
-            <span>Practice spelling words out loud using the French letter names</span>
+            <span>
+              Practice spelling words out loud using the French letter names
+            </span>
           </li>
         </ul>
       </div>
     </div>
-  )
+  );
 }
-

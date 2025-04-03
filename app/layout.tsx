@@ -11,7 +11,6 @@ export const metadata = {
   title: "تعلم الفرنسية - منصة تفاعلية لتعلم اللغة الفرنسية",
   description:
     "منصة تفاعلية لتعلم اللغة الفرنسية بطريقة سهلة وممتعة مع تمارين وألعاب وتحديات",
-  generator: "v0.dev",
 };
 
 export default function RootLayout({

@@ -1,60 +1,84 @@
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Sparkles, BookOpen, Headphones, MessageSquare, PenTool, Award, Brain, Languages, Puzzle } from "lucide-react"
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import {
+  Sparkles,
+  BookOpen,
+  Headphones,
+  MessageSquare,
+  PenTool,
+  Award,
+  Brain,
+  Languages,
+  Puzzle,
+} from "lucide-react";
 
 export function FeaturesSection() {
   const features = [
     {
       icon: <BookOpen className="h-10 w-10 text-primary" />,
       title: "دروس تفاعلية",
-      description: "دروس مصممة بطريقة مبسطة وتفاعلية تناسب جميع المستويات من المبتدئين إلى المتقدمين",
+      description:
+        "دروس مصممة بطريقة مبسطة وتفاعلية تناسب جميع المستويات من المبتدئين إلى المتقدمين",
       link: "/lessons",
     },
     {
       icon: <Headphones className="h-10 w-10 text-primary" />,
       title: "تدريبات الاستماع",
-      description: "استمع إلى نطق الكلمات والجمل بلهجة فرنسية أصلية لتحسين مهارات الاستماع والنطق",
-      link: "/listening",
+      description:
+        "استمع إلى نطق الكلمات والجمل بلهجة فرنسية أصلية لتحسين مهارات الاستماع والنطق",
+      link: "/syllables",
     },
     {
       icon: <PenTool className="h-10 w-10 text-primary" />,
       title: "تمارين الكتابة",
-      description: "تمارين متنوعة للكتابة لتطوير مهارات الكتابة والقواعد اللغوية",
+      description:
+        "تمارين متنوعة للكتابة لتطوير مهارات الكتابة والقواعد اللغوية",
       link: "/exercises/writing",
     },
     {
       icon: <MessageSquare className="h-10 w-10 text-primary" />,
       title: "محادثة ذكية",
-      description: "تدرب على المحادثة مع روبوت ذكي يساعدك على تطوير مهارات المحادثة بشكل طبيعي",
+      description:
+        "تدرب على المحادثة مع روبوت ذكي يساعدك على تطوير مهارات المحادثة بشكل طبيعي",
       link: "/conversation",
     },
     {
       icon: <Languages className="h-10 w-10 text-primary" />,
-      title: "نطق دقيق",
-      description: "تعلم النطق الصحيح للكلمات والجمل الفرنسية مع أدوات تقييم النطق",
-      link: "/pronunciation",
+      title: "المفردات الفرنسية",
+      description:
+        "تعلم المفردات الأساسية والمهمة بطريقة تفاعلية لتعزيز حصيلتك اللغوية",
+      link: "/vocabulary",
     },
     {
       icon: <Puzzle className="h-10 w-10 text-primary" />,
       title: "ألعاب تعليمية",
-      description: "تعلم من خلال ألعاب تفاعلية متنوعة تجعل عملية التعلم ممتعة ومشوقة",
+      description:
+        "تعلم من خلال ألعاب تفاعلية متنوعة تجعل عملية التعلم ممتعة ومشوقة",
       link: "/games",
     },
     {
       icon: <Award className="h-10 w-10 text-primary" />,
       title: "شهادات وإنجازات",
-      description: "احصل على شهادات وإنجازات عند إكمال الدروس والمستويات لتحفيزك على الاستمرار",
+      description:
+        "احصل على شهادات وإنجازات عند إكمال الدروس والمستويات لتحفيزك على الاستمرار",
       link: "/achievements",
     },
     {
       icon: <Brain className="h-10 w-10 text-primary" />,
       title: "تعلم ذكي",
-      description: "نظام تعليمي ذكي يتكيف مع مستواك واحتياجاتك لتحقيق أقصى استفادة من وقت التعلم",
+      description:
+        "نظام تعليمي ذكي يتكيف مع مستواك واحتياجاتك لتحقيق أقصى استفادة من وقت التعلم",
       link: "/smart-learning",
     },
-  ]
+  ];
 
   return (
     <section className="bg-background py-20">
@@ -64,7 +88,9 @@ export function FeaturesSection() {
             <Sparkles className="ml-1 h-3 w-3" />
             <span>ميزاتنا</span>
           </Badge>
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">طريقة تعلم فريدة ومميزة</h2>
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+            طريقة تعلم فريدة ومميزة
+          </h2>
           <p className="mx-auto mt-4 max-w-[700px] text-muted-foreground md:text-xl">
             نقدم لك تجربة تعليمية متكاملة لإتقان اللغة الفرنسية بسهولة وفعالية
           </p>
@@ -88,6 +114,5 @@ export function FeaturesSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-
